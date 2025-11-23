@@ -7,6 +7,8 @@ A simple PHP user management system with:
 - Profile image upload
 - Automatic database creation using PDO & MySQL
 - Session-based error handling and authentication
+-  This project is intentionally built without MVC architecture or OOP classes
+
 
 ---
 
@@ -84,8 +86,17 @@ Columns:
 
 http://localhost/your-project/public/LogIn.php
 
+Database will be created automatically
 
-Database will be created automatically.
+or
+
+If you don't want to use XAMPP/WAMP, you can run the project using PHP's built-in development server:Then open in your browser:
+http://localhost:8000/LogIn.php
+
+
+```bash
+php -S localhost:8000 
+
 
 ---
 
