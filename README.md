@@ -30,7 +30,7 @@ A simple PHP user management system with:
 
 ## Project Structure
 
-.
+```
 ├── Admin
 │   ├── admin_serch.php
 │   ├── admin.php
@@ -56,6 +56,7 @@ A simple PHP user management system with:
 │   └── Register.php
 └── style
     └── style.css
+```
 
 ## Database
 
